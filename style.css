@@ -1,0 +1,33 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("https://garden.spoonflower.com/c/10972896/p/f/m/kfcM2gNXiUWDVtXDXK9Snj1mNKtEL-ByDks5eXV6Aj6hh9xjZUhLhP8/Hand%20Gestures.jpg");
+}
+#divHeading{
+    word-spacing: 1cm;
+    background-color: aquamarine;
+}
+button{
+    margin: 10px;
+    width: 100px;
+    height: 70px;
+    font-size: larger;
+    background-color: teal;
+    color: lightyellow;
+    border-radius: 10px ;
+}
+hr{
+    border-style: dashed;
+}
+#div1{
+    margin: 50px;
+    position: fixed;
+    top: 400px; 
+    left: 300px;
+}
+
+#div2{
+    margin: 50px;
+    position: fixed;
+    top: 400px; 
+    left: 800px;
+}

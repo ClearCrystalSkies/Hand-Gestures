@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hand Gestures</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <div id="divHeading">
+                <h1> <b>Hand Gestures</b> <br>👍 &#128076; ✋ &#9996; &#128071; 🤘 &#128406;</h1>
+                <span>
+                    <span> Good </span>
+                    <span> Nice </span>
+                    <span> Wait </span>
+                    <span> Victory </span>
+                    <span> Down </span>
+                    <span> Rock on! </span>
+                    <span> Spock </span>
+                </span>
+            </div>
+            <hr>
+            <div id="div1">
+                <div id="webcam"></div>
+                <button class="btn" onclick="take_snapshot()"> Capture image </button>
+            </div>
+            <div id="div2">
+                <div id="captured_img"></div>
+                <button class="btn" onclick="indentify()"> Identify the gesture </button>
+            </div>
+        </center>
+    </body>
+</html> 
