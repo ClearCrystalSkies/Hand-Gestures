@@ -15,19 +15,28 @@ button{
     color: lightyellow;
     border-radius: 10px ;
 }
+#div1{
+    margin: 10px;
+    position: fixed;
+    top: 200px; 
+    left: 10%;
+    border: 10px solid brown;
+    padding: 20px;
+    background-color: steelblue;
+}
+#camera, #captured_img{
+    border: 10px solid salmon;
+    background-image: url("https://garden.spoonflower.com/c/10972896/p/f/m/kfcM2gNXiUWDVtXDXK9Snj1mNKtEL-ByDks5eXV6Aj6hh9xjZUhLhP8/Hand%20Gestures.jpg");
+}
 hr{
     border-style: dashed;
 }
-#div1{
-    margin: 50px;
-    position: fixed;
-    top: 400px; 
-    left: 300px;
-}
-
 #div2{
     margin: 50px;
     position: fixed;
-    top: 400px; 
-    left: 800px;
+    top: 158px; 
+    right: 8%;
+    border: 10px solid brown;
+    padding: 20px;
+    background-color: steelblue;
 }
